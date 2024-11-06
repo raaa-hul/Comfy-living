@@ -1,0 +1,52 @@
+https://www.photondesigner.com/articles/use-react?ref=yt
+
+
+const [data1,setData1] =useState("")
+
+    useEffect(() => {
+        const url = "http://127.0.0.1:8000"; // Use http instead of https for local development
+        axios.get(url)
+            .then(response => {
+                setData1(response.data); // Update the state with the fetched data
+                console.log(response.data); // Log the JSON data
+            })
+            .catch(error => {
+                console.error('Fetch error:', error); // Handle any errors
+            });
+    }, []);
+
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         try {
+    //             const url = "http://127.0.0.1:8000"; // Use http instead of https for local development
+    //             const response = await fetch(url);
+
+    //             if (!response.ok) {
+    //                 throw new Error(`HTTP error! status: ${response.status}`);
+    //             }
+
+    //             const json = await response.json(); // Parse the JSON data
+    //             console.log(json); // Log the JSON data
+    //             setData1(json)
+    //         } catch (error) {
+    //             console.error('Fetch error:', error); // Handle any errors
+    //         }
+    //     };
+
+    //     fetchData(); // Call the fetch function
+    // }, []); // Empty dependency array to run once on component mount
+  
+----------------------------------------------------------------------------
+views.py
+from django.http import JsonResponse
+
+def hello_world(request):
+    return JsonResponse({'message': 'Hello World for me'})
+
+
+oop
+decorator
+generator
+context manager
+multithreading multiprocessing
+asynchronous

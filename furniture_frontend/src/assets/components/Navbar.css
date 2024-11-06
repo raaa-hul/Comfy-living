@@ -1,0 +1,53 @@
+/* navbar.css */
+
+/* General transition for all elements */
+.navbar-transition {
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect for links */
+  .navbar-link {
+    color: black; /* Default text color */
+  }
+  
+  .navbar-link:hover {
+    color: #ec8c1d; /* Change to orange on hover */
+    transform: translateY(-2px); /* Move up slightly */
+  }
+  
+  /* Dropdown hover effect */
+  .dropdown-link {
+    color: black; /* Default text color */
+  }
+  
+  .dropdown-link:hover {
+    background-color: #f3f4f6; /* Light gray background on hover */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+  
+  /* Button hover effect */
+  .btn-login,.btn-logout,
+  .btn-signup {
+    background-color: #ec8c1d; /* Default background color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Slightly rounded corners */
+  }
+  
+  .btn-login:hover,.btn-logout:hover,
+  .btn-signup:hover {
+    background-color: #e97e22; /* Darker orange on hover */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transform: translateY(-2px); /* Move up slightly */
+  }
+  
+  /* Additional styling for dropdown menu */
+  .group:hover .group-hover\:block {
+    display: block; /* Show the dropdown when hovering over the group */
+  }
+  
+  /* Optional: Smooth transition for dropdown items */
+  .dropdown-link {
+    transition: background-color 0.2s; /* Smooth background color transition */
+  }
+  

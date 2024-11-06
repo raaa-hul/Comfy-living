@@ -1,0 +1,106 @@
+/* Carousel */
+.carousel {
+    position: relative;
+    height: 400px; /* Set height for the carousel */
+    width: 80%; /* Increase the width (e.g., 80%) */
+    margin: 0 auto; /* Center the carousel horizontally */
+    overflow: hidden; /* Hide overflowing content during transition */
+}
+
+/* Carousel Item */
+.carousel-item {
+    height: 100%;
+    width: 100%; /* Ensure the items take the full width of the carousel */
+    background-size: cover;
+    background-position: center;
+    display: none; /* Hide all items by default */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0; /* Start with invisible slides */
+    transition: opacity 1s ease-in-out; /* Smooth fade transition */
+}
+
+.carousel-item.active {
+    display: flex; /* Show active item */
+    opacity: 1; /* Make active item visible */
+}
+
+/* Carousel Caption */
+.carousel-caption {
+    position: absolute;
+    top: 80%; /* Position caption closer to the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset by half its width and height */
+    text-align: center; /* Center text */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Carousel Control Buttons */
+.carousel-control {
+    position: absolute;
+    top: 65%; /* Center vertically */
+    transform: translateY(-50%); /* Center the control buttons */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    width: 40px; /* Width for buttons */
+    height: 40px; /* Height for buttons */
+    border-radius: 50%; /* Make buttons circular */
+    display: flex; /* Use flexbox for centering the text */
+    justify-content: center; /* Center the text inside */
+    align-items: center; /* Center the text inside */
+}
+
+.carousel-control.prev {
+    left: 10px; /* Position the left control */
+}
+
+.carousel-control.next {
+    right: 10px; /* Position the right control */
+}
+
+/* Custom Button */
+.custom-btn {
+    background-color: #ec8c1d; /* Custom button color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Padding around button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* No underline */
+}
+
+.custom-btn:hover {
+    background-color: #e63f2d; /* Darker color on hover */
+}
+
+/* Welcome Content */
+.welcome-content {
+    position: relative; /* Ensure it stacks above the blurred background */
+    text-align: center; /* Center align text */
+    color: white; /* Text color */
+    padding: 40px; /* Padding around the text */
+}
+
+.welcome-content h1 {
+    font-size: 3em; /* Font size for heading */
+    color: #ec8c1d; /* Heading color */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.welcome-content p {
+    font-size: 1.5em; /* Font size for paragraph */
+    color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for paragraph */
+    max-width: 800px; /* Max width for paragraph */
+    margin: 0 auto; /* Center the paragraph */
+}

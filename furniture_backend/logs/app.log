@@ -1,0 +1,78 @@
+WARNING 2024-11-06 15:14:22,723 log Not Found: /
+WARNING 2024-11-06 15:14:22,723 log Not Found: /
+WARNING 2024-11-06 15:14:22,730 basehttp "GET / HTTP/1.1" 404 2315
+WARNING 2024-11-06 15:14:22,730 basehttp "GET / HTTP/1.1" 404 2315
+INFO 2024-11-06 15:14:33,435 views Furniture list accessed.
+WARNING 2024-11-06 15:14:58,494 log Not Found: /
+WARNING 2024-11-06 15:14:58,494 log Not Found: /
+WARNING 2024-11-06 15:14:58,494 basehttp "GET / HTTP/1.1" 404 2315
+WARNING 2024-11-06 15:14:58,494 basehttp "GET / HTTP/1.1" 404 2315
+INFO 2024-11-06 15:16:22,905 views Furniture list accessed.
+INFO 2024-11-06 15:16:22,914 views Furniture list accessed.
+INFO 2024-11-06 15:16:34,145 views Furniture list accessed.
+INFO 2024-11-06 15:16:34,160 views Furniture list accessed.
+WARNING 2024-11-06 15:24:30,443 log Not Found: /
+WARNING 2024-11-06 15:24:30,443 log Not Found: /
+WARNING 2024-11-06 15:24:30,451 basehttp "GET / HTTP/1.1" 404 2315
+WARNING 2024-11-06 15:24:30,451 basehttp "GET / HTTP/1.1" 404 2315
+WARNING 2024-11-06 15:24:42,622 log Not Found: /api/contact/
+WARNING 2024-11-06 15:24:42,622 log Not Found: /api/contact/
+WARNING 2024-11-06 15:24:42,622 basehttp "POST /api/contact/ HTTP/1.1" 404 5289
+WARNING 2024-11-06 15:24:42,622 basehttp "POST /api/contact/ HTTP/1.1" 404 5289
+WARNING 2024-11-06 15:25:19,513 log Not Found: /api/contact
+WARNING 2024-11-06 15:25:19,513 log Not Found: /api/contact
+WARNING 2024-11-06 15:25:19,513 basehttp "GET /api/contact HTTP/1.1" 404 5285
+WARNING 2024-11-06 15:25:19,513 basehttp "GET /api/contact HTTP/1.1" 404 5285
+INFO 2024-11-06 15:40:34,607 views User logged in successfully: Gokul
+INFO 2024-11-06 15:40:38,362 views Furniture list accessed.
+INFO 2024-11-06 15:40:38,488 views Furniture list accessed.
+INFO 2024-11-06 15:40:51,856 views Furniture list accessed.
+INFO 2024-11-06 15:40:51,868 views Furniture list accessed.
+INFO 2024-11-06 15:43:46,387 views User logged in successfully: Gokul
+INFO 2024-11-06 15:44:11,529 views User logged in successfully: Gokul
+INFO 2024-11-06 15:44:41,895 views User logged in successfully: Gokul
+INFO 2024-11-06 15:45:23,166 views User logged in successfully: Gokul
+WARNING 2024-11-06 15:55:46,403 log Not Found: /
+WARNING 2024-11-06 15:55:46,403 log Not Found: /
+WARNING 2024-11-06 15:55:46,403 basehttp "GET / HTTP/1.1" 404 2468
+WARNING 2024-11-06 15:55:46,403 basehttp "GET / HTTP/1.1" 404 2468
+WARNING 2024-11-06 15:55:50,174 log Not Found: /v1
+WARNING 2024-11-06 15:55:50,174 log Not Found: /v1
+WARNING 2024-11-06 15:55:50,174 basehttp "GET /v1 HTTP/1.1" 404 2492
+WARNING 2024-11-06 15:55:50,174 basehttp "GET /v1 HTTP/1.1" 404 2492
+WARNING 2024-11-06 15:55:53,991 log Not Found: /v1/
+WARNING 2024-11-06 15:55:53,991 log Not Found: /v1/
+WARNING 2024-11-06 15:55:53,991 basehttp "GET /v1/ HTTP/1.1" 404 2495
+WARNING 2024-11-06 15:55:53,991 basehttp "GET /v1/ HTTP/1.1" 404 2495
+INFO 2024-11-06 15:56:05,581 views Furniture list accessed.
+WARNING 2024-11-06 15:56:12,348 log Not Found: /api/v2/companies/stats/
+WARNING 2024-11-06 15:56:12,348 log Not Found: /api/v2/companies/stats/
+WARNING 2024-11-06 15:56:12,355 basehttp "GET /api/v2/companies/stats/ HTTP/1.1" 404 5494
+WARNING 2024-11-06 15:56:12,355 basehttp "GET /api/v2/companies/stats/ HTTP/1.1" 404 5494
+INFO 2024-11-06 16:00:43,515 views Furniture list accessed.
+WARNING 2024-11-06 16:00:48,988 log Not Found: /api/v2/companies/stats/
+WARNING 2024-11-06 16:00:48,988 log Not Found: /api/v2/companies/stats/
+WARNING 2024-11-06 16:00:48,988 basehttp "GET /api/v2/companies/stats/ HTTP/1.1" 404 5494
+WARNING 2024-11-06 16:00:48,988 basehttp "GET /api/v2/companies/stats/ HTTP/1.1" 404 5494
+WARNING 2024-11-06 16:00:54,409 log Not Found: /api/v2/companies/stats/
+WARNING 2024-11-06 16:00:54,409 log Not Found: /api/v2/companies/stats/
+WARNING 2024-11-06 16:00:54,409 basehttp "GET /api/v2/companies/stats/ HTTP/1.1" 404 5494
+WARNING 2024-11-06 16:00:54,409 basehttp "GET /api/v2/companies/stats/ HTTP/1.1" 404 5494
+INFO 2024-11-06 16:02:39,516 views Furniture list accessed.
+INFO 2024-11-06 16:05:41,119 views Furniture list accessed.
+INFO 2024-11-06 16:05:41,137 views Furniture list accessed.
+INFO 2024-11-06 16:05:42,569 views Furniture list accessed.
+INFO 2024-11-06 16:05:42,585 views Furniture list accessed.
+INFO 2024-11-06 16:06:11,513 views User logged in successfully: Gokul
+INFO 2024-11-06 16:16:04,320 views Furniture list accessed.
+INFO 2024-11-06 16:16:04,353 views Furniture list accessed.
+INFO 2024-11-06 16:16:13,995 views User logged in successfully: Gokul
+INFO 2024-11-06 16:16:22,860 views Furniture list accessed.
+INFO 2024-11-06 16:16:22,908 views Furniture list accessed.
+INFO 2024-11-06 16:16:27,456 views Furniture list accessed.
+INFO 2024-11-06 16:16:27,480 views Furniture list accessed.
+WARNING 2024-11-06 16:16:58,872 log Not Found: /api/login/
+WARNING 2024-11-06 16:16:58,872 log Not Found: /api/login/
+WARNING 2024-11-06 16:16:58,872 basehttp "POST /api/login/ HTTP/1.1" 404 2517
+WARNING 2024-11-06 16:16:58,872 basehttp "POST /api/login/ HTTP/1.1" 404 2517
+INFO 2024-11-06 16:17:11,834 views User logged in successfully: Gokul
