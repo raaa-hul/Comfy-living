@@ -63,13 +63,14 @@ const ProductDetail = () => {
   }
 
   return (
-    <div className="flex p-4 space-x-6">
+    <div className="flex w-[1000px] mt-5 p-6 space-x-6 bg-white shadow-md rounded-lg mx-auto justify-center items-center ">
+      {/* <div className="mb-3 max-w-lg mt-3 mx-auto p-6 bg-white rounded-lg shadow-md"></div> */}
       <div className="flex-none">
-        <img src={product.image_url} alt={product.name} className="w-80 h-auto shadow-md" />
+        <img src={product.image_url} alt={product.name} className="w-80 h-auto shadow-md mr-6" />
       </div>
       <div className="flex-1">
         <h1 className="text-3xl font-bold">{product.name}</h1>
-        <p className="text-lg mt-2">{product.description}</p>
+        <p className="text-lg mt-2">{product.description}</p><br />
         <span className="font-bold text-xl mt-4">{`Rs. ${product.price}`}</span><br />
         <button
           onClick={handleAddToCart}
